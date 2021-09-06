@@ -1,0 +1,6 @@
+# Runtime: 4 ms, faster than 79.66% of Bash online submissions for Tenth Line.
+# Memory Usage: 3.5 MB, less than 82.03% of Bash online submissions for Tenth Line.
+
+sed -n '10p' file.txt
+sed '10!d' file.txt
+awk 'NR==10' file.txt
