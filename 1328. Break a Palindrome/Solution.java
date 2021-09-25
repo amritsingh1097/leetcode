@@ -1,5 +1,5 @@
 // Runtime: 0 ms, faster than 100.00% of Java online submissions for Break a Palindrome.
-// Memory Usage: 37.2 MB, less than 61.54% of Java online submissions for Break a Palindrome.
+// Memory Usage: 36.9 MB, less than 79.59% of Java online submissions for Break a Palindrome.
 
 class Solution {
     public String breakPalindrome(String palindrome) {
