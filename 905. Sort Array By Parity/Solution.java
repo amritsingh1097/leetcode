@@ -17,5 +17,19 @@ class Solution {
         }
         
         return list;
+
+        // Inplace
+//         while (even < odd) {
+//             if (nums[even] % 2 > nums[odd] % 2) {
+//                 int tmp = nums[even];
+//                 nums[even] = nums[odd];
+//                 nums[odd] = tmp;
+//             }
+            
+//             if (nums[even] % 2 == 0) ++even;
+//             if (nums[odd] % 2 != 0) --odd;
+//         }
+        
+//         return nums;
     }
 }
