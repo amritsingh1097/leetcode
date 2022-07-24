@@ -32,6 +32,39 @@ class Solution {
             
             ++i;
         }
+
+        // Method 2
+//         for (int p1 = s.length() - 1, p2 = t.length() - 1; p1 >= 0 || p2 >= 0; --p1, --p2) {
+//             int backspaces = 0;
+            
+//             while (p1 >= 0) {
+//                 if (s.charAt(p1) == '#') {
+//                     ++backspaces;
+//                     --p1;
+//                 } else if (backspaces > 0) {
+//                     --backspaces;
+//                     --p1;
+//                 } else {
+//                     break;
+//                 }
+//             }
+            
+//             backspaces = 0;
+//             while (p2 >= 0) {
+//                 if (t.charAt(p2) == '#') {
+//                     ++backspaces;
+//                     --p2;
+//                 } else if (backspaces > 0) {
+//                     --backspaces;
+//                     --p2;
+//                 } else {
+//                     break;
+//                 }
+//             }
+            
+//             if ((p1 >= 0) != (p2 >= 0)) return false;
+//             if (p1 >= 0 && p2 >= 0 && s.charAt(p1) != t.charAt(p2)) return false;
+//         }
         
         return true;
     }
